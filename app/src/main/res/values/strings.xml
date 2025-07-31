@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AudioPlayer</string>
+    <string name="empty_view">There are no music tracks here yet! Click the button below to upload some</string>
+</resources>
