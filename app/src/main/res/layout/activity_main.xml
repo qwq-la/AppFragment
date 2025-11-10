@@ -31,13 +31,6 @@
         android:text="@string/empty_view"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
-    <androidx.recyclerview.widget.RecyclerView
-        android:id = "@+id/songView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:itemCount="1"
-        tools:listitem="@layout/song_element_view"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -46,8 +39,20 @@
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="44dp"
         android:background="@color/white"
+        android:backgroundTint="#FCF5FD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/button_add" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="71dp"
+        android:layout_height="67dp"
+        android:backgroundTint="#FCF5FD"
+        android:foregroundTint="#2B2D30"
+        android:tint="#293FEA"
+        app:srcCompat="@android:drawable/ic_menu_rotate"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="617dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
